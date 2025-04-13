@@ -13,6 +13,7 @@ I found that it took to long to run the evaluation over the full data sets so fo
 Training was limited to 5 epochs.  The observed train and test mean similarities (in order of epoch) were:
 
 Train:  0.621, 0.625, 0.626, 0.627, 0.612
+
 Test:   0.610, 0.619, 0.641, 0.635, 0.604
 
 So the model obtained in the 3rd training epoch was retained.  
