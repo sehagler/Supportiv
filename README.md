@@ -1,4 +1,4 @@
-The code is contained in the two Python files main.py and question_answerer.py.  Main.py is the entry-point to the code.  There are 3 modes in which the code can be run by setting the mode variable "split", "train", "query".  "Split" splits the data set into 3 parts.  "Train" trains the model.  and "Query" asks the model to generate answers to some questions.  The data set should be placed in the data folder.
+The code is contained in the two Python files main.py and question_answerer.py.  Main.py is the entry-point to the code.  There are 3 modes in which the code can be run by setting the mode variable "split", "train", "query".  "Split" splits the data set into 3 parts.  "Train" trains the model.  and "Query" asks the model to generate answers to some questions.  Folders named "data" and "model" must be added at the same level as the two Python files.  The data set should be placed in the data folder.
 
 The model developed here was chosen so that it could be trained and run in reasonable time on my personal laptop using an Nvidia GPU together with CUDA.
 
