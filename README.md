@@ -91,3 +91,7 @@ The model was chosen based on the time anticipated for this task and the perform
 Also I have used a GPT-2 model pretrained on a general.  It would be worthwhile to see if there are comparably sized generative models pretrained on medical data sets or to create one oneself if necessary.  
 
 None of this addresses the problem of hallucination in language models (i.e. models simply making things up).  The model is being trained to respond to medical questions and the approach I am using effectively requires the model to memorize all the relevant medical data.  An alternative approach that would limit how much the model has to remember and should lower the amount of hallucination would be to adopt an LLM+RAG approach where a vector database of medical information is created and the model uses information obtained from querying the database to inform the answer it is generating.
+
+I affirm that I did not use any AI tools to assist in the development of this code.
+
+Signed Stuart Hagler
